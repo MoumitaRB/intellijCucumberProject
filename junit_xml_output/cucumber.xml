@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.054955">
+<testcase classname="OrangeHRM tagging concept" name="Verifying job title of the searched employee" time="0.054955">
+<system-out><![CDATA[Given User launch Chrome browser............................................skipped
+When User opens OrangeHRM homepage..........................................skipped
+And User enters username as "Admin" and password as "admin123"..............skipped
+And User  clicks on login button............................................skipped
+Then User clicks on PIM tab.................................................skipped
+And User clicks on Employee List tab........................................skipped
+And User enters employee name in employee name box..........................skipped
+Then User click on search button............................................skipped
+Then Search the job title from the table....................................skipped
+And Close browser...........................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

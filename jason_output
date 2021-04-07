@@ -1,0 +1,181 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-25T13:58:29.619Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1035800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hookssteps.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verifying job title of the searched employee",
+        "description": "",
+        "id": "orangehrm-tagging-concept;verifying-job-title-of-the-searched-employee",
+        "after": [
+          {
+            "result": {
+              "duration": 22800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hookssteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 636100,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User launch Chrome browser",
+            "match": {
+              "location": "OrangeHRMTaggingSteps.user_launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 858600,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User opens OrangeHRM homepage",
+            "match": {
+              "location": "OrangeHRMTaggingSteps.user_opens_OrangeHRM_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1161900,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "User enters username as \"Admin\" and password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 48
+                }
+              ],
+              "location": "OrangeHRMTaggingSteps.user_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 764600,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User  clicks on login button",
+            "match": {
+              "location": "OrangeHRMTaggingSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1016000,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User clicks on PIM tab",
+            "match": {
+              "location": "OrangeHRMTaggingSteps.user_clicks_on_PIM_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 706800,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User clicks on Employee List tab",
+            "match": {
+              "location": "OrangeHRMTaggingSteps.user_clicks_on_Employee_List_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 833300,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "User enters employee name in employee name box",
+            "match": {
+              "location": "OrangeHRMTaggingSteps.user_enters_employee_name_in_employee_name_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 722900,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User click on search button",
+            "match": {
+              "location": "OrangeHRMTaggingSteps.user_click_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 601600,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "Search the job title from the table",
+            "match": {
+              "location": "OrangeHRMTaggingSteps.search_the_job_title_from_the_table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 678900,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Close browser",
+            "match": {
+              "location": "OrangeHRMTaggingSteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@End2End"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM tagging concept",
+    "description": "",
+    "id": "orangehrm-tagging-concept",
+    "keyword": "Feature",
+    "uri": "file:/C:/IdeaProjects/SeleniumCucumber/Features/OrangeHRMTagging.feature",
+    "tags": []
+  }
+]
